@@ -1,0 +1,118 @@
+/* code starts here */
+
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:ital,wght@1,300&display=swap");
+
+
+* {
+    max-width: 100%;
+    font-family: 'Roboto Mono', sans-serif;
+    
+}
+
+nav {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+nav a {
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+} 
+
+.plan {
+    background-color: #FF764E;
+    margin-left: 15%;
+}
+
+.learn {
+    background-color: #5ED3EB;
+    margin-left: 15%;
+
+}
+
+.involved {
+    background-color: #FFCD69;
+    margin-left: 10%;
+}
+
+.header-div {
+    display: flex;
+    flex-flow: wrap row;
+}
+.header-img {
+    width: 20%;
+    border-radius: 60%;
+    margin-left: 5%;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+    margin-left: 5%;
+    }
+
+h1 {
+    margin-left: 5%;
+    font-family: 'Chelsea Market';
+}
+
+.header-text p {
+    margin-left: 10%;
+}
+
+.section-one {
+    background-color: #DDB9A3;
+    color: white;
+    padding: 2%;
+    width: 80%; 
+    margin: 5%;
+}
+
+.fire-sec {
+    width: 50%;
+    
+}
+
+.fire-sec img {
+    width: 20%;
+    margin-left: 80%;
+}
+
+.fire-sec p {
+    margin-left: 50%;
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.lodge-sec {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.lodge-sec img {
+    width: 20%; 
+    margin-left: 80%;
+}
+
+.lodge-sec p {
+    margin-left: 50%;
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #F9E7DC;
+    padding-bottom: 1em;
+}
+
+footer img {
+    height: 20em;
+    width: 100%;
+}
